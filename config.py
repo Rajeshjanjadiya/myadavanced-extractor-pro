@@ -20,11 +20,11 @@ CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1003958253583"))
 # //FORCE_CHANNEL_ID
 CHANNEL_ID2 = int(os.environ.get("CHANNEL_ID2", "-1003958253583")) 
 # ------------------------------------------------
-MONGO_URL = os.environ.get("MONGO_URL", "")
+MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://Rajeshkumaryadav9414:Raosahab9414@atlascluster.qvlner6.mongodb.net/")
 # -----------------------------------------------
-PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", ""))
+PREMIUM_LOGS = int(os.environ.get("PREMIUM_LOGS", "0"))
 # -----------------------------------------------
-join = '<a href="https://t.me/princ">✳️ JOIN BACKUP</a>'
+join = '<a href="0">✳️ JOIN BACKUP</a>'
 # -----------------------------------------------
 UNSPLASH_ACCESS_KEY = 'RabDRmuXXBobanmwwbvpP5LwoG4J8ox34y5Sstz-9jk'
 # -----------------------------------------------
@@ -32,5 +32,5 @@ UNSPLASH_QUERY = 'animal baby'
 # -----------------------------------------------
 ADMIN_BOT_USERNAME = "" #without @
 
-THUMB_URL = os.environ.get("THUMB_URL", "")
+THUMB_URL = os.environ.get("THUMB_URL", "https://ibb.co/RpvJK05H")
 
